@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Route Planner</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="controls">
+            <h1>College Route Planner</h1>
+            <div>
+                <label for="start">Start Location:</label>
+                <input type="text" id="start" placeholder="Latitude, Longitude">
+                <button id="set-start">Set Start on Map</button>
+            </div>
+            <div>
+                <label for="end">End Location:</label>
+                <input type="text" id="end" placeholder="Latitude, Longitude">
+                <button id="set-end">Set End on Map</button>
+            </div>
+            <div id="clusters">
+                <!-- Cluster checkboxes will be dynamically added here -->
+            </div>
+            <button id="calculate">Calculate Route</button>
+            <button id="reset">Reset</button>
+            <div id="route-info"></div>
+        </div>
+        <div id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+</html>

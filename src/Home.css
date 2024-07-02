@@ -1,0 +1,61 @@
+/* src/Home.css */
+
+.home-container {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .main-heading {
+    margin-bottom: 40px;
+  }
+  
+  .content-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .main-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .small-heading {
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  

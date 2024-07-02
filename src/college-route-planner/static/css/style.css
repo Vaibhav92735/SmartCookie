@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    display: flex;
+    height: 100%;
+}
+
+#controls {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+}
+
+#map {
+    flex-grow: 1;
+}
+
+input, button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+}
+
+#clusters {
+    margin-top: 20px;
+}
+
+#route-info {
+    margin-top: 20px;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
