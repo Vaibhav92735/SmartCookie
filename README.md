@@ -1,43 +1,52 @@
-# Getting Started with Google Maps API with Places autocomplete and Directions service and renderer.
+# Internship Project - Smart Cookie Website
+> **Company:** Blue Planet Infosolutions India Pvt. Ltd (Smart Cookie)  
+> **Position:** Web Developer  
+> **Duration:** July 2024 - August 2024 (Work From Home, Pune)  
+> **Mentor:** Avinash Kulkarni, CEO, Smart Cookie  
+> **Project:** [Smart Cookie Website](https://github.com/YourGithubUsername/Smart-Cookie-Website)
 
-## What is covered?
+## Project Overview
+During my internship at Smart Cookie, I built a website that visualizes the distribution of Starbucks locations and colleges across California and New York, USA. This tool supports Smart Cookie’s KYC efforts, helping officials to link with colleges and schedule meetings effectively.
 
-1. Google maps in React
-2. Adding Markers
-3. Panning and zooming maps
-4. Disable default controls
-5. Places Autocomplete
-6. Directions Service
-7. Directions Renderer on map
+### Key Responsibilities:
+- Collected and curated data on various colleges and Starbucks in California and New York, performing KYC verification.
+- Built a React website to display data insights, such as the distribution of Starbucks and colleges.
+- Integrated tools and technologies: ReactJS, NodeJS, Nodemailer, Selenium, and Language Learning Models (LLM).
 
-## Youtube tutorial
+### Project Tools & Technologies:
+- **Frontend:** ReactJS
+- **Backend:** NodeJS
+- **APIs:** Google Maps API
+- **Other Tools:** Nodemailer, Selenium, Language Learning Models (LLM)  
 
-[https://youtu.be/iP3DnhCUIsE](https://youtu.be/iP3DnhCUIsE)
+## How to Run the Project
 
-## Starting the app
+1. **Clone the Repository**
+   git clone https://github.com/YourGithubUsername/Smart-Cookie-Website.git
+   cd Smart-Cookie-Website
 
-Create an API in the google developers console [https://console.developers.google.com](https://console.developers.google.com), make sure to enable billing for the google project, otherwise you may get a warning as _development purposes only_.
+2. **Install Dependencies**
 
-Add a `.env` file or `.env.local` in the project root and specify your API key as `REACT_APP_GOOGLE_MAPS_API_KEY=your_api_key_here`
+    Ensure you have npm installed. Then run:
+    npm install
 
-In the project directory, you can run:
+3. **Set Up Google Maps API Key**
 
-```
-yarn install
-yarn start
-```
+    Generate a Google Maps API key here.
+    Create a .env file in the root directory of the project and add the following:
+   
+    REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+    Replace your_google_maps_api_key_here with your actual API key.
 
-OR using npm
+4. **Start the Development Server**
+    npm start
 
-```
-npm install
-npm start
-```
+    The app will start on http://localhost:3000.
 
-## Author
+    Manual for Running the Code A detailed manual on how to run the project and use each feature is available [here](https://github.com/YourGithubUsername/Smart-Cookie-Website).
 
-- [**Truly Mittal**](https://trulymittal.com)
+## Internship Certificate
 
-## Contribute
+You can view my internship certificate [here](https://github.com/YourGithubUsername/Smart-Cookie-Website).
 
-You can fork this repo and send me a PR.
+For further assistance, feel free to reach out. Thank you for viewing my project!
