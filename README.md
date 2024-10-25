@@ -47,6 +47,6 @@ During my internship at Smart Cookie, I built a website that visualizes the dist
 
 ## Internship Certificate
 
-You can view my internship certificate [here](https://github.com/YourGithubUsername/Smart-Cookie-Website](https://drive.google.com/file/d/1_3K8mGUA0ESLf4Qq4heEdGtqfV8jhpQ-/view?usp=drive_link).
+You can view my internship certificate [here](https://drive.google.com/file/d/1_3K8mGUA0ESLf4Qq4heEdGtqfV8jhpQ-/view?usp=drive_link).
 
 For further assistance, feel free to reach out. Thank you for viewing my project!
